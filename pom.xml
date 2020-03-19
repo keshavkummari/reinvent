@@ -29,13 +29,13 @@
     	    <snapshotRepository>
 	        	<id>snapshots</id>
 	        	<name>snapshots</name>
-        		<url>http://18.222.130.58:8081/artifactory/libs-snapshot-local</url>
+        		<url>http://18.220.185.75:8081/service/rest/repository/browse/maven-snapshots/</url>
 	    </snapshotRepository>
     
 	    <repository>
         	<id>central</id>
 	        <name>releases</name>
-        	<url>http://18.222.130.58:8081/artifactory/libs-release-local</url>
+        	<url>http://18.220.185.75:8081/service/rest/repository/browse/maven-releases/</url>
     	   </repository>
 	
 	</distributionManagement>
